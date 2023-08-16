@@ -11,4 +11,3 @@ print(input().split())
 
 x = 8
 A = [int(x) for x in input().split()]
-print(A)
