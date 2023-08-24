@@ -17,9 +17,7 @@ def solution(N, stages):
 
         total_players = total_players - failed_players
 
-        print(
-            f"stage: {stage}, failed_player: {failed_players}, fail_percent: {fail_percent}"
-        )
+        print(f"stage: {stage}, failed_player: {failed_players}, fail_percent: {fail_percent}")
 
     def sort_key(stage):
         return fail_percents[stage]
