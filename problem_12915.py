@@ -12,7 +12,7 @@ def solution(strings, n):
         for string in strings:
             if string[n] == word:
                 real_answer.append(string)
-                
+
     real_answer = set(real_answer)
     real_answer = list(real_answer)
     real_answer.sort()
